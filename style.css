@@ -86,7 +86,7 @@ header-widget-area
     }
 
     .site-title{
-      font-family: Tahoma, Verdana, Arial;
+      font-family: 'Deutsch Gothic', Tahoma, Verdana, Arial;
       font-size: 48px;
       font-weight: bold;
       font-variant: all-small-caps;
@@ -110,7 +110,7 @@ header-widget-area
 
     .site-titles {
       float: left;
-      width: 300px !important;
+      width: 500px !important;
       padding-left: 10px;
     }
 

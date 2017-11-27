@@ -42,6 +42,13 @@
 					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 				</div>
 			</div>
+
+			<div class="sub-header-widget-area">
+				<?php if (!dynamic_sidebar("sub-header-widget-area") ) : ?>
+				<!-- Код который будет выводиться если в вашей области не добавлено -->
+				<!-- ни одного виджета -->
+				<?php endif; ?>
+		  </div>
 		</div>
 
 		<nav id="site-navigation" class="navigation-main" role="navigation">

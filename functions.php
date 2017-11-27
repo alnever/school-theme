@@ -17,6 +17,16 @@
      ));
 
      register_sidebar(array(
+         'name' => __('SubHeader widges'),
+         'id' => 'sub-header-widget-area',
+         'description' => __('SubHeader widges'),
+         'before_widget' => '',
+         'after_widget' => '',
+         'before_title' => '<h3><a href="#">',
+         'after_title' => '</a></h3>',
+     ));
+
+     register_sidebar(array(
          'name' => __('Home page widges'),
          'id' => 'home-page-widget-area',
          'description' => __('Home page widges'),
@@ -37,4 +47,4 @@
            $string = '<ul>' . $childpages . '</ul>';
        }
        return $string;
-     }     
+     }
